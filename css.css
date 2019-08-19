@@ -1,0 +1,159 @@
+body {
+  width: auto !important; /* reemplazar con anchura automatica */
+  border-style: solid; /* Container for flexboxes */
+  background-color: #fefbd8;
+  min-width: 140px;
+}
+
+.columns_container {
+    min-height: 140px !important;
+}
+
+/* Style the header */
+.header_container {
+ background-image: none;
+ background-color:##373B79;
+ width: 100% !important; /* reemplazar con anchura automatica */
+}
+
+.headerWrapper {
+    height: inherit;
+    background-color: lightslategray !important;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.logo_container img {
+    margin-top: 0px !important;
+    max-height: 100% !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.content, #taxonomyContainer {
+    padding: 0px !important;
+}
+
+#searchBoxStyleDiv {
+float:none;
+width: auto;
+height: auto;
+/* overflow: auto; */
+}
+
+#content {
+width: 100% !important;
+padding-top: 0px !important;
+}
+
+.quicksearchBar {
+    width: auto;
+}
+
+#searchBoxAdvancedLink {
+    float: inline-start !important;
+    border-left: none;
+    margin-left: 0px;
+    padding: 5px 5px 5px 5px !important;
+    height: auto  !important;
+    position: none;
+    top: 0px;
+}
+
+#searchBoxAdvancedLink a {
+    color: #fff;
+    font-size: small;
+    line-height: 250%;
+}
+
+#searchBoxesWrapper {
+    float: left;
+    margin-top: 4px;
+}
+
+#searchBoxHomeLink {
+    float: left;
+    padding-top: 4px;
+    padding-right: 0px !important;
+}
+
+.fa.fa-home {
+    margin-top: 0px;
+}
+
+.searchBoxSection {
+    display: inline-flex;
+ }
+ 
+ #searchBoxCentered {
+    background-color: cadetblue;
+    width: 100%;
+}
+
+#searchBox {
+ float:none;
+ width: auto;
+ height: 10px !important;
+ margin: 0px !important;
+/* overflow: auto; */
+ text-align: center;
+ background: #4d4d4d;
+ border: 0px !important;
+ min-height: 0px;
+ padding: 0px !important;
+}
+
+#searchBox .dropDown {
+    float: none;
+    display: inline;
+    min-width: 270px !important;
+    height: 26px;
+}
+
+#searchButton {
+    background-color: #ef7508  !important;
+    min-width: 70px !important;
+}
+
+#q {
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 26px !important;
+    width: 194px;
+}
+
+
+#restrictionDropDown {
+    width: auto;
+}
+.dropDown {
+    width: auto;
+}
+
+#searchField {
+    float: none;
+    position: none;
+}
+
+.column {
+    float: none;
+    display: inline;
+    position: relative;
+    padding: 3px;
+    margin: 0;
+    overflow: visible;
+}
+
+#footer {
+  width: 100% !important;
+  height: auto !important;
+  text-align: center !important;
+}
+
+#footer a {
+    color: #008000;
+}
